@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(136, 101, 110, 0.55) 2%,
+      rgba(140, 111, 92, 0.55) 98%
+    ),
+    url(./images/fondo2.jpg);
+  background-size: 100%;
+}
+
+.wrapper {
+  display: grid;
+  position: relative;
+  margin-left: 760px;
+  margin-top: -50px;
+  max-width: 1000px;
+  margin: 0 100;
+}
+
+#titulo {
+  position: relative;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 100px;
+  text-align: center;
+  margin-left: 380px;
+  margin-top: 200px;
+  color: #6deeeb;
+  text-shadow: 0 0 10px #020201e0;
+  animation: bounce 1s infinite;
+  animation-duration: 1s;
+}
+
+#lbl {
+  position: relative;
+  font-family: "Rancho", cursive;
+  font-size: 20px;
+  text-align: justify;
+  color: aliceblue;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
+#btnStart {
+  position: relative;
+  font-family: "Rancho", cursive;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 28px;
+  background-color: #6deeecbe;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  width: 100px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
+#btnStart:hover{
+  background-color: rgb(23, 79, 105);;
+  transform: scale(1.1);
+}
+
+#miku2 {
+  position: relative;
+  margin-top: -500px;
+  margin-right: 400px;
+  margin-left: -20px;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
